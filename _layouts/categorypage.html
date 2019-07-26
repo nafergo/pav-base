@@ -2,12 +2,16 @@
 layout: default
 ---
 
-<h1>{{ page.category }}</h1>
+<h2 style="text-transform:capitalize;">{{ page.category }}</h2>
 
 <ul>
 {% for post in site.categories[page.category] %}
   <li>
-    {{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a>
+
+<li><a href="{{ site.baseurl }}{{ tutorial.url }}">{% include document-icon.html icon=tutorial.type %}{{ tutorial.title }}</a></li>
+
+  <!--  <a href="{{ post.url }}">{{ post.title }}</a> -->
+
   </li>
 {% endfor %}
 </ul>
