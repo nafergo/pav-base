@@ -1,5 +1,5 @@
 ---
-date: 2019-01-16
+date: 2019-01-19
 title: Installation
 categories:
   - web-mapping
