@@ -14,6 +14,7 @@ Many people don’t use Jekyll for client projects as non-developers would tradi
 ## What is CloudCannon?
 
 CloudCannon is cloud content management system and hosting provider for Jekyll websites. A developer uploads a Jekyll site in the browser or by syncing with GitHub, Bitbucket or Dropbox. CloudCannon then builds the site, hosts it and provides an interface for non-technical users to update content.
+xana 
 
 ## Setup
 
