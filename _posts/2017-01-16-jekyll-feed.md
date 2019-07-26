@@ -2,7 +2,7 @@
 date: 2017-01-16
 title: jekyll-feed
 categories:
-  - Estratigrafia
+  - estratigrafia
 description: Install an RSS feed on your Jekyll blog
 type: Document
 ---

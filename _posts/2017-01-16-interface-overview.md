@@ -2,7 +2,7 @@
 date: 2017-01-16
 title: Interface overview
 categories:
- - Web-mapping
+ - web-mapping
 description: How does the interface work?
 type: Document
 ---

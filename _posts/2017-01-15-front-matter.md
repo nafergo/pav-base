@@ -4,7 +4,7 @@ title: Front matter
 video_id: 42vlM8bvrtk
 description: Use front matter to set variables on your page
 categories:
-  - 3D
+  - 3d
 resources:
   - name: "Front matter documentation"
     link: https://jekyllrb.com/docs/frontmatter/

@@ -2,7 +2,7 @@
 date: 2017-01-16
 title: Installation
 categories:
-  - Web-mapping
+  - web-mapping
 description: Your guide to installation
 type: Document
 ---
