@@ -2,7 +2,7 @@
 date: 2017-01-16
 title: jekyll-search
 categories:
-  - plugins
+  - Estratigrafia
 description: Search on your Jekyll site
 type: Document
 ---
