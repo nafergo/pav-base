@@ -1,7 +1,7 @@
 ---
-date:
+date: true
 title:
-categories:
+categories: true
 description:
 type: Document
 ---
