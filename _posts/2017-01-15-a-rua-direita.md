@@ -2,13 +2,13 @@
 date: 2017-01-15
 title: A Rua Direita
 video_id: LbQ-q9IFTvY
-description: Have non-technical people update Jekyll sites
+description: Um teste sobre a Rua Direita
 categories:
   - 3d
 resources:
-  - name: Source code
+  - name: Um link
     link: https://github.com/CloudCannon/creative-jekyll-theme/
-  - name: CloudCannon
+  - name: Outro link
     link: https://cloudcannon.com
 type: Video
 set: getting-started
@@ -16,7 +16,7 @@ set_order: 1
 ---
 
 <section class="sidebar sticky" style="position: fixed;top: 85px;">
-[link text](#abcd).
+<a href="#abcd#>teeeest</a>
 </section>
 
 
@@ -27,6 +27,7 @@ Many people don’t use Jekyll for client projects as non-developers would tradi
 CloudCannon is cloud content management system and hosting provider for Jekyll websites. A developer uploads a Jekyll site in the browser or by syncing with GitHub, Bitbucket or Dropbox. CloudCannon then builds the site, hosts it and provides an interface for non-technical users to update content.
 
 ## Setup
+<h2>teste</h2>
 <a name="abcd"></a>
 
 To begin, we need to create a CloudCannon account and create our first site. Head over to [CloudCannon](https://cloudcannon.com) and click the *Get Started Free* button:
