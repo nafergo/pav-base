@@ -3,32 +3,7 @@ layout: default
 ---
 
 <section class="tutorial">
-	<section class="sidebar sticky">
 
-
-
-		<ul>
-
-		{% assign h2_open_start = content|split: '<h2'%}
-		{% assign h2_open_end = h2_open_start[1]| split: '>'%}
-		{% assign h2_content_array = h2_open_end[1]| split: '</h2'%}
-		{% assign h2_content = h2_content_array[0]%}
-		
-			{% for item in sub_navigation %}
-		<li>TESTE<a href="#{{ item.id }}">{{ item.text }}</a></li>
-	{% endfor %}
-</ul>
-
-<!--
-		<ul>
-			{% assign sub_navigation = content | extract_element: 'h2' %}
-			{% for item in sub_navigation %}
-				<li>TESTE<a href="#{{ item.id }}">{{ item.text }}</a></li>
-			{% endfor %}
-		</ul>
--->
-
-	</section>
 	<section class="tutorial-content">
 		<h1>{{ page.title }}</h1>
 
