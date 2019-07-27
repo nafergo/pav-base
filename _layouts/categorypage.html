@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h2 style="text-transform: uppercase;">{{ page.category }}</h2>
+<h2 style="text-transform: uppercase;">{{ page.category | replace: "-", " " }}</h2>
 
 <ul class="listing">
 	{% for item in site.categories[page.category] %}
