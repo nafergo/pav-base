@@ -1,9 +1,9 @@
 ---
-date: 2017-01-16
-title: Expired credit card
+date: 2019-01-18
+title: OpenStreetMaps
 categories:
-  - fotografia
-description: What to do when your credit card expires
+  - web-mapping
+description: Jekyll template for digital agencies
 type: Document
 ---
 Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like Markdown) and our Liquid renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server.

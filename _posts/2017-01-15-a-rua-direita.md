@@ -1,6 +1,6 @@
 ---
 date: 2017-01-15
-title: Rua Direita
+title: A Rua Direita
 video_id: LbQ-q9IFTvY
 description: Have non-technical people update Jekyll sites
 categories:

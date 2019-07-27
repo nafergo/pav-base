@@ -1,6 +1,6 @@
 ---
 date: 2017-01-15
-title: Layouts
+title: Fotogrametria-3
 video_id: Gc2d-eGSSdQ
 description: Use Jekyll layouts to reduce repetition on your site
 categories:
