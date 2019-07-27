@@ -1,22 +1,17 @@
 ---
 date: 2017-01-15
-title: Introduction to collections
-video_id: o7ygmIRgvUA
-description: Learn how to use collections to manage and organize related content
+title: Introdução ao Blender
+video_id: iF6emJkKTHk
+description: Overview of Jekyll's file structure
 categories:
   - 3d
 resources:
-  - name: "Explain like I'm five: Jekyll collections"
-    link: http://ben.balter.com/2015/02/20/jekyll-collections/
-  - name: "Collections documentation"
-    link: https://jekyllrb.com/docs/collections/
-  - name: "Source code"
-    link: https://github.com/CloudCannon/bakery-store/tree/collections
+  - name: Source code
+    link: https://github.com/CloudCannon/bakery-store/tree/structure
 type: Video
 set: getting-started
-set_order: 4
+set_order: 2
 ---
-
 Many people don’t use Jekyll for client projects as non-developers would traditionally have to learn HTML, Markdown and Liquid to update content. In this tutorial, we give non-developers an easy way to update Jekyll sites with [CloudCannon](https://cloudcannon.com).
 
 ## What is CloudCannon?
