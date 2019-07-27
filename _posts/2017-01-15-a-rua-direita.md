@@ -16,55 +16,23 @@ set_order: 1
 ---
 
 
-<section class="sidebar sticky">
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,  [veniamn](https://cloudcannon.com).
 
-Submenu
+## Lorem ipsum
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
-<!--
-  <ul>
-    {% assign sub_navigation = content | extract_element: 'h2' %}
-    {% for item in sub_navigation %}
-      <li>TESTE<a href="#{{ item.id }}">{{ item.text }}</a></li>
-    {% endfor %}
-  </ul>
--->
+## explicabo
 
-</section>
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
 
-
-Many people don’t use Jekyll for client projects as non-developers would traditionally have to learn HTML, Markdown and Liquid to update content. In this tutorial, we give non-developers an easy way to update Jekyll sites with [CloudCannon](https://cloudcannon.com).
-
-## What is CloudCannon?
-
-CloudCannon is cloud content management system and hosting provider for Jekyll websites. A developer uploads a Jekyll site in the browser or by syncing with GitHub, Bitbucket or Dropbox. CloudCannon then builds the site, hosts it and provides an interface for non-technical users to update content.
-
-## Setup
-
-To begin, we need to create a CloudCannon account and create our first site. Head over to [CloudCannon](https://cloudcannon.com) and click the *Get Started Free* button:
-
-Enter your details into the sign up form:
-
-Once we've signed up we're taken to our dashboard. Click *Create Site*:
-
-Enter a name for the site. I'm going to use the site from the [Converting a static site to Jekyll](/jekyll-casts/converting-a-static-site-to-jekyll/) cast so I'll call it *Creative*:
-
-This creates the site and gives us options for uploading our files. If you'd like to use the same site I'm using you can download it [here](https://github.com/CloudCannon/creative-jekyll-theme/archive/master.zip).
-
-There's a number of ways of getting your files on CloudCannon. To keep things simple we're just going to upload a folder from our local computer. Click on the folder icon. *Note: folder upload is only supported in Chrome*
-
-Navigate to your Jekyll site and click *Upload*:
-
-Once the files upload, CloudCannon builds the site:
-
-We can view the live site by clicking on the _.cloudvent.net_ URL in the sidebar:
-
-## Editables
-<a name="abcd"></a>
-<a href="#abcd"></a>
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
 
+ Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+
+## veniam
 
 Next, we need to do is to define areas in our HTML which non-developers can update. These are called [Editable Regions](https://docs.cloudcannon.com/editing/editable-regions/) and are set by adding a class of `editable` to HTML elements.
 
