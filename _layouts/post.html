@@ -7,8 +7,8 @@ layout: default
 
 
 		<ul>Testeee
-		  {% for item in site.pages %}
-		    <li {% if page.url contains item.url %}class="active"{% endif %}><a href="{{ item.url }}">{{ item.title }}</a></li>
+		  {% for item in site.posts %}
+		    <li {% if post.url contains item.url %}class="active"{% endif %}><a href="{{ item.url }}">{{ item.title }}</a></li>
 		  {% endfor %}
 		</ul>
 
