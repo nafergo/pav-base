@@ -4,12 +4,24 @@ layout: default
 
 <section class="tutorial">
 	<section class="sidebar sticky">
+
+
+		<ul>Testeee
+		  {% for item in site.pages %}
+		    <li {% if page.url contains item.url %}class="active"{% endif %}><a href="{{ item.url }}">{{ item.title }}</a></li>
+		  {% endfor %}
+		</ul>
+
+
+<!--
 		<ul>
 			{% assign sub_navigation = content | extract_element: 'h2' %}
 			{% for item in sub_navigation %}
-				<li><a href="#{{ item.id }}">{{ item.text }}</a></li>
+				<li>TESTE<a href="#{{ item.id }}">{{ item.text }}</a></li>
 			{% endfor %}
 		</ul>
+-->
+
 	</section>
 	<section class="tutorial-content">
 		<h1>{{ page.title }}</h1>
